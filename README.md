@@ -15,3 +15,5 @@ The goal of this lab is to grant specific domain users exclusive access to a dri
 
 - <b>Windows 10 OS</b>
 - <b>Windows 10 server OS</b> 
+
+<h2>Program walk-through:</h2>
