@@ -11,7 +11,7 @@ The goal of this lab is to grant specific domain users exclusive access to a dri
 - <b>virtual machines</b>
 - <b>Active directory</b>
 
-  <h2>Environments Used </h2>
+<h2>Environments Used </h2>
 
 - <b>Windows 10 OS</b>
 - <b>Windows 10 server OS</b> 
