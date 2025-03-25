@@ -42,6 +42,8 @@ The goal of this lab is to grant specific domain users exclusive access to a dri
 
 <img src="https://i.imgur.com/XvqM6WN.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 
+<img src="https://i.imgur.com/K8uGVGN.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+
 
 
 
