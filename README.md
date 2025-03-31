@@ -66,6 +66,8 @@ I then logged into Lucy's account but on a different VM.
 
 <img src="https://i.imgur.com/wvLgGVX.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 
+In the image below I have the domain controller on the left and the client VM where Lucy is signed in on the right. I'm now making the drive which I created on the domain controller accessible to Lucy by
+
 <img src="https://i.imgur.com/XgB4MzR.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 
 <img src="https://i.imgur.com/XvqM6WN.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
