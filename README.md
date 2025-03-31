@@ -46,10 +46,11 @@ I then add three different users but this time I add them to the Personal secuir
 
 <img src="https://i.imgur.com/jhYBPHo.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 
-I then went to the Personal drives settings and on the secuirty section I specifically added the personal secuirity group which I created earlier. This will enable the three users that I added to the personal secuirty group to now have access to the personal drive on there own specific accounts.
-
+I then went to the Personal drives settings and on the securty section I specifically added the personal secuirity group which I created earlier. This will enable the three users that I added to the personal secuirty group to now have access to the personal drive on there own specific accounts.
 
 <img src="https://i.imgur.com/rrx7zUg.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+
+After configuring the Personal drive settings I then shared the drive and enable it to read/write so that the users who are apart of the Personal security group can add and edit the Personal drive on their personal account.
 
 <img src="https://i.imgur.com/SsHzzQA.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 
@@ -57,13 +58,13 @@ I then went to the HR drives settings and did the same thing but instead I added
 
 <img src="https://i.imgur.com/4U1VGiF.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 
+After configuring the HR drive settings I then shared the drive and enable it to read/write so that the users who are apart of the Personal security group can add and edit the Personal drive on their personal account.
+
 <img src="https://i.imgur.com/nGfm9rK.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 
 I then logged into Lucy's account but on a different VM.
 
 <img src="https://i.imgur.com/wvLgGVX.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
-
-
 
 <img src="https://i.imgur.com/XgB4MzR.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 
