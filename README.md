@@ -18,7 +18,11 @@ The goal of this lab is to grant specific domain users exclusive access to a dri
 
 <h2>Program walk-through:</h2>
 
+The first thing I did was I opened up virtual box and went to the server mangers file and sharing area in order to create the two drives(HR and Personal) which are to be shared with other users on the domain.
+
 <img src="https://i.imgur.com/XCPDTmE.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>   
+
+The HR and Personal drive.
 
 <img src="https://i.imgur.com/Y3ghgB0.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 
