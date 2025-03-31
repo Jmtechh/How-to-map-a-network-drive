@@ -48,11 +48,16 @@ I then add three different users but this time I add them to the Personal secuir
 
 I then went to the Personal drives settings and on the secuirty section I specifically added the personal secuirity group which I created earlier. This will enable the three users that I added to the personal secuirty group to now have access to the personal drive on there own specific accounts.
 
+
 <img src="https://i.imgur.com/rrx7zUg.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+
+<img src="https://i.imgur.com/SsHzzQA.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 
 I then went to the HR drives settings and did the same thing but instead I added the HR secuirty group to the HR drive. This will enable Lucy to have access to this drive since she is a member of the HR secuirty group.
 
 <img src="https://i.imgur.com/4U1VGiF.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+
+<img src="https://i.imgur.com/nGfm9rK.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 
 I then logged into Lucy's account but on a different VM.
 
