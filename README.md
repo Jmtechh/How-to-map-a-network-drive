@@ -18,7 +18,7 @@ The goal of this lab is to grant specific domain users exclusive access to a dri
 
 <h2>Program walk-through:</h2>
 
-The first thing I did was I opened up virtual box and went to the server manger (ON THE DOMAIN CONTROLLER VM) file and sharing area in order to create the two drives(HR and Personal) which are to be shared with other users on the domain.
+The first step I took was opening VirtualBox and navigating to the File and Sharing section in Server Manager on the Domain Controller VM to create two shared drives, HR and Personal, for domain users.
 
 <img src="https://i.imgur.com/XCPDTmE.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>   
 
@@ -26,11 +26,11 @@ The HR and Personal drive.
 
 <img src="https://i.imgur.com/Y3ghgB0.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 
-After creating the share drives. I then created a security group for the HR drive. This allows me to add users to this specific security group which enables users access to the drive based on weather or not they are apart of the security group.
+After creating the shared drives, I set up a security group for the **HR drive**. This allows me to control access by adding users to the group—only those who are members will be granted permission to the drive.
 
 <img src="https://i.imgur.com/mhMmQnp.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 
-I then created a secuirty group for the Personal drive.
+I then created a security group for the Personal drive.
 
 <img src="https://i.imgur.com/9IYaK29.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 
@@ -38,27 +38,27 @@ The two security groups for both drives.
 
 <img src="https://i.imgur.com/NKnSfFU.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 
-I then added a user named Lucy. Lucy is apart of the HR team/folder in active directory which is why I've added her to this specific security group. Lucy being added to the HR secuirty group will give her access to the HR folder when I finish the configurations on the HR drive.
+Next, I added a user named Lucy, who is part of the **HR team/folder** in **Active Directory**. Since she belongs to HR, I assigned her to the **HR security group**, which will grant her access to the **HR folder** once the drive configurations are complete.
 
 <img src="https://i.imgur.com/yoLkxgH.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 
-I then add three different users but this time I add them to the Personal secuirty group.
+I then added three additional users, this time assigning them to the **Personal security group**.
 
 <img src="https://i.imgur.com/jhYBPHo.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 
-I then went to the Personal drives settings and on the securty section I specifically added the personal secuirity group which I created earlier. This will enable the three users that I added to the personal secuirty group to now have access to the personal drive on there own specific accounts.
+Next, I accessed the **Personal drive settings** and, under the **Security** section, added the **Personal security group** I had created earlier. This ensures that the three users assigned to this group can now access the **Personal drive** through their individual accounts.
 
 <img src="https://i.imgur.com/rrx7zUg.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 
-After configuring the Personal drive settings I then shared the drive and enable it to read/write so that the users who are apart of the Personal security group can add and edit the Personal drive on their personal account.
+After configuring the **Personal drive settings**, I shared the drive and enabled **read/write permissions**, allowing users in the **Personal security group** to add and edit files on the **Personal drive** from their individual accounts.
 
 <img src="https://i.imgur.com/SsHzzQA.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 
-I then went to the HR drives settings and did the same thing but instead I added the HR secuirty group to the HR drive. This will enable Lucy to have access to this drive since she is a member of the HR secuirty group.
+I then configured the **HR drive settings** in the same way, but this time, I added the **HR security group**. This ensures that **Lucy**, as a member of the group, will have access to the **HR drive**.
 
 <img src="https://i.imgur.com/4U1VGiF.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 
-After configuring the HR drive settings I then shared the drive and enable it to read/write so that the users who are apart of the Personal security group can add and edit the Personal drive on their personal account.
+After configuring the **HR drive settings**, I shared the drive and enabled **read/write permissions**, allowing members of the **HR security group** to add and edit files on the **HR drive** from their individual accounts.
 
 <img src="https://i.imgur.com/nGfm9rK.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 
@@ -66,7 +66,7 @@ I then logged into Lucy's account but on a different VM.
 
 <img src="https://i.imgur.com/wvLgGVX.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 
-In the image below I have the domain controller on the left and the client VM where Lucy is signed in on the right. I mapped the HR drive from the domain controller so that Lucy could access it everytime she logs into her account.
+In the image below, the **Domain Controller** is on the left, and the **Client VM**, where Lucy is signed in, is on the right. I mapped the **HR drive** from the **Domain Controller**, ensuring that Lucy can access it each time she logs into her account.
 
 <img src="https://i.imgur.com/XgB4MzR.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 
@@ -74,11 +74,11 @@ The HR drive has been created and is now visible in the file explorer.
 
 <img src="https://i.imgur.com/XvqM6WN.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 
-The next thing that I did was automatically create a personal drive for Adamm through Active directory. This method allows me to map a drive without having to logged into his account to create the drive.
+Next, I used **Active Directory** to automatically create a **Personal drive** for **Adam**. This method allows me to map the drive without needing to log into his account manually.
 
 <img src="https://i.imgur.com/K8uGVGN.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 
-Once I sign in I should see a drive in their file explorer named Personal.
+Once I sign in, I should see a drive labeled **Personal** in their **File Explorer**.
 
 <img src="https://i.imgur.com/XdHb4B6.png" width="80%" alt="Disk Sanitization Steps"/>
 
