@@ -66,13 +66,19 @@ I then logged into Lucy's account but on a different VM.
 
 <img src="https://i.imgur.com/wvLgGVX.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 
-In the image below I have the domain controller on the left and the client VM where Lucy is signed in on the right. I'm now making the drive which I created on the domain controller accessible to Lucy by
+In the image below I have the domain controller on the left and the client VM where Lucy is signed in on the right. I mapped the HR drive from the domain controller so that Lucy could access it everytime she logs into her account.
 
 <img src="https://i.imgur.com/XgB4MzR.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 
+The HR drive has been created and is now visible in the file explorer.
+
 <img src="https://i.imgur.com/XvqM6WN.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 
+The next thing that I did was automatically create a personal drive for Adamm through Active directory. This method allows me to map a drive without having to logged into his account to create the drive.
+
 <img src="https://i.imgur.com/K8uGVGN.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+
+Once I sign in I should see a drive in their file explorer named Personal.
 
 <img src="https://i.imgur.com/XdHb4B6.png" width="80%" alt="Disk Sanitization Steps"/>
 
